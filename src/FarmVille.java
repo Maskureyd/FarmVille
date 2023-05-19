@@ -7,7 +7,7 @@ public class FarmVille {
 
         farm.addPlant(tomatoPlant);
         farm.addPlant(carrotPlant);
-        System.out.println();
+        System.out.println("");
 
         System.out.println("Day 1:");
         farm.simulateDay();
