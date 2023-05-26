@@ -17,7 +17,7 @@ public class CarrotPlant extends Plant{
     }
     public void harvest(){
         if (isHarvestable()) {
-            System.out.println(getName() + " has been harvested. Congratulations!!!");
+            System.out.println(getName() + " has been harvested. Congratulations!!");
             waterLevel = 0;
             setHarvestable(false);
         } else {
