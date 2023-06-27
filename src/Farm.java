@@ -8,7 +8,7 @@ public class Farm {
     }
     public void addPlant(Plant plant){
         plants.add(plant);
-        System.out.println(plant.getName() + " has been added to farm. ");
+        System.out.println(plant.getName() + " has been added to farm.  ");
 
     }
     public void simulateDay(){
