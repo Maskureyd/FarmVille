@@ -9,13 +9,13 @@ public class FarmVille {
         farm.addPlant(carrotPlant);
         System.out.println("");
 
-        System.out.println("Day 1:");
+        System.out.println("Day 1: ");
         farm.simulateDay();
 
-        System.out.println("Day 2:");
+        System.out.println("Day 2: ");
         farm.simulateDay();
 
-        System.out.println("Day 3:");
+        System.out.println("Day 3: ");
         farm.simulateDay();
     }
 }
